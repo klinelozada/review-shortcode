@@ -1,0 +1,302 @@
+/**
+Theme Name: Dame Digital
+Author: Dame Digital
+Author URI: https://thedamedigital.com
+Description: Dame Digital is your extended marketing team. We listen to the challenges faced by your business so we can design a cost-effective and long-term strategy.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dame-digital
+Template: astra
+*/
+
+  .jq-stars{display:inline-block}.jq-rating-label{font-size:22px;display:inline-block;position:relative;vertical-align:top;font-family:helvetica,arial,verdana}.jq-star{width:100px;height:100px;display:inline-block;cursor:pointer}.jq-star-svg{width:100%;height:100%}.jq-star-svg polygon{stroke:#000;stroke-linejoin:round}.jq-shadow{-webkit-filter:drop-shadow( -2px -2px 2px #888 );filter:drop-shadow( -2px -2px 2px #888 )}
+
+  body {
+    font-family:'Inter', sans-serif;
+  }
+  .review-author-container,
+  .review-product-container {
+    width:100%;
+    max-width:860px!important;
+    margin:0 auto;
+  }
+  .review-author-container .ra-bio {
+    display:flex;
+    flex:1;
+    margin-bottom:0.5rem;
+  }
+  .review-author-container .ra-bio .ra-info {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .review-author-container .ra-bio .ra-avatar {
+    margin-right:1rem;
+  }
+  .review-author-container .ra-bio .ra-avatar img {
+    border-radius:50%;
+    max-width:60px;
+  }
+  .review-author-container .ra-bio .ra-info .ra-name {
+    font-weight:800;
+  }
+  .review-author-container .ra-bio .ra-info {
+   font-size:1rem; 
+  }
+  
+  /* Review Product */
+  .review-product-container {
+    position:relative;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    border:solid 3px #E6C300;
+    padding:1rem;
+    box-sizing: border-box;
+  }
+  .review-product-container .rp-header {
+    position:absolute;
+    top:-1.6rem;
+    width:100%;
+  }
+  .review-product-container .rp-header .rp-winner:before {
+    content:'';
+    display:block;
+    position:absolute;
+    left:-12px;
+    bottom:-12px;
+    border-color:rgba(0,0,0,0) #051542 rgba(0,0,0,0) rgba(0,0,0,0);
+    border-style:inset solid inset inset;
+    border-width:0 12px 12px;
+    z-index:-999;
+  }
+  .review-product-container .rp-header .rp-winner:after {
+    border-color:#051542 transparent #051542 #051542;
+    right:-42px;
+    border-width:24px;
+    position:absolute;
+    top:0px;
+    border-style:solid;
+    content: '';
+    height:0;
+    width:0;
+  }
+  .review-product-container .rp-header .rp-winner {
+    background:#051542;
+    color:#fff;
+    display:inline-block;
+    padding:0.7rem 1.4rem 0.7rem 0.8rem;
+    margin-left:-1.9rem;
+    position:relative;
+    box-sizing: border-box;
+    font-weight:200;
+  }
+  .review-product-container .rp-header .rp-tags {
+    float:right;
+    margin-top:0.5rem;
+  }
+  .review-product-container .rp-header .rp-tags .rp-tag {
+    display:inline-block;
+    font-size:0.8rem;
+    margin:0 0.4rem;
+    border:solid 1px #000;
+    padding:0.4rem 1rem;
+    background:#fff;
+  }
+  .review-product-container .rp-product-info {
+    margin-top:2rem;
+    display:flex;
+    box-sizing: border-box;
+  }
+  .review-product-container .rp-product-info .rp-image img {
+    width:100%;
+    padding:1rem 0.4rem;
+    box-sizing: border-box;
+    position:relative
+  }
+  .review-product-container .rp-product-info .rp-description,
+  .review-product-container .rp-product-info .rp-rating {
+    padding:0 1rem;
+    box-sizing: border-box;
+    position:relative
+  }
+  .review-product-container .rp-product-info .rp-image a,
+  .review-product-container .rp-product-info .rp-rating a {
+    text-decoration:none;
+  }
+  .review-product-container .rp-product-info .rp-image {
+    width:25%;
+    text-align:center;
+  }
+  .review-product-container .rp-product-info .rp-description {
+    width:50%;
+    font-size:0.9rem;
+    position:relative;
+  }
+  .review-product-container .rp-product-info .rp-rating {
+    width:25%;
+    text-align:center;
+    box-sizing: border-box; 
+    position:relative;
+  }
+  .review-product-container .rp-product-info .rp-description .rp-excerpt {
+    font-weight:600;
+  }
+  .review-product-container .rp-product-info .rp-description ul.rp-pros,
+  .review-product-container .rp-product-info .rp-description ul.rp-cons {
+    list-style-type:none;
+  }
+  .review-product-container .rp-product-info .rp-description ul.rp-pros li,
+  .review-product-container .rp-product-info .rp-description ul.rp-cons li {
+    margin:0.6rem 0;
+  }
+  .review-product-container .rp-product-info .rp-description ul.rp-pros li:before {
+    content:'';
+    width:12px;
+    height:17px;
+    background:url("data:image/svg+xml,%3Csvg width='12' height='11' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.2492 0.703125L4.75078 7.95234L1.5 4.70391L0 6.20391L4.99922 11.2031L12 2.20312L10.2492 0.703125Z' fill='%230eb246'/%3E%3C/svg%3E%0A");
+    background-repeat:no-repeat;
+    background-position:left 6px;
+    position:absolute;
+    margin-left:-1.2rem;
+    margin-top:-2px;
+  }
+  .review-product-container .rp-product-info .rp-description ul.rp-cons li:before {
+    content:'';
+    width:12px;
+    height:17px;
+    background:url("data:image/svg+xml,%3Csvg width='12' height='10' viewBox='0 0 11 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.69637 0.393139L5.50087 3.58881C4.43576 2.52405 3.37031 1.45825 2.30503 0.393139C1.07268 -0.839205 -0.837536 1.0717 0.393777 2.30439C1.45923 3.36881 2.52503 4.43478 3.58928 5.49989C2.52454 6.56549 1.45937 7.63065 0.393777 8.69539C-0.837536 9.92739 1.07285 11.8378 2.30503 10.6066C3.37014 9.54119 4.43559 8.47556 5.5007 7.4108L8.6962 10.6066C9.92854 11.8386 11.8393 9.92756 10.6074 8.69539C9.54199 7.62994 8.47688 6.56483 7.41109 5.49955C8.47671 4.43409 9.54182 3.36864 10.6074 2.30336C11.8394 1.0717 9.92871 -0.839204 8.6962 0.393827' fill='%23EC1C24'/%3E%3C/svg%3E%0A");
+    background-repeat:no-repeat;
+    background-position:left 6px;
+    position:absolute;
+    margin-left:-1.2rem;
+    margin-top:-2px;
+  }
+  .review-product-container .rp-product-info .rp-description ul.rp-cons {
+    
+  }
+  .review-product-container .rp-product-info .rp-rating .score-98 {
+    background:linear-gradient(270deg, #009309 50%, transparent 50%), linear-gradient(80deg, #009309 50%, #e0e0e0 50%);
+  }
+  .review-product-container .rp-product-info .rp-rating .rp-score {
+    width:90px;
+    height:90px;
+    border-radius:100%;
+    margin:0 auto 2rem;
+  }
+  .review-product-container .rp-product-info .rp-rating .rp-score .score {
+    background:#fff;
+    text-align:center;
+    font-size:32px;
+    width:80px;
+    height:80px;
+    position:relative;
+    top:5px;
+    left:5px;
+    border-radius:100%;
+    line-height:5rem;
+    font-weight:600;
+  }
+  .review-product-container .rp-product-info .rp-rating a {
+    background:#EB5020;
+    width:100%;
+    display:block;
+    padding:1rem; 
+    color:#fff;
+    box-sizing: border-box; 
+    position:relative;
+  }
+  .review-product-container .rp-description br {
+    display:none;
+  }
+  /* Columns */
+  .review-product-container .rp-specs {
+    margin-top:2rem;
+  }
+  .review-product-container .rp-specs .rp-col {
+    width:49%;
+    display:inline-block;
+    box-sizing: border-box; 
+    position:relative;
+    padding-right:4rem;
+    vertical-align:top;
+  }
+  .review-product-container .rp-specs .rp-col .rp-spec {
+    font-size:0.9rem;
+    margin:1rem 0;
+  }
+  .review-product-container .rp-specs .rp-col .rp-spec .spec-name,
+  .review-product-container .rp-specs .rp-col .rp-spec .spec-content {
+    display:inline-block;
+    box-sizing: border-box; 
+    position:relative;
+  }
+  .review-product-container .rp-specs .rp-col .rp-spec .spec-name {
+    font-weight:600;
+  }
+  .review-product-container .rp-specs .rp-col .rp-spec .spec-content {
+    text-align:right;
+    float:right;
+  }
+  
+  /* Responsiveness */
+  @media only screen and (min-width: 541px) and (max-width: 768px) {
+  
+  }
+  
+  @media only screen and (min-width:350px) and (max-width:540px) {
+    .review-author-container {
+      box-sizing: border-box;
+      position:relative;
+      padding:1rem;
+    }
+    .review-product-container .rp-header .rp-winner {
+      font-size:0.8rem;
+    }
+    .review-product-container .rp-header .rp-winner {
+      padding:0.65rem 1.4rem 0.65rem 0.8rem
+    }
+    .review-product-container .rp-header .rp-winner:after {
+      border-width:18px;
+      right:-30px;
+    }
+    .review-product-container .rp-header .rp-tags {
+      float:right;
+      text-align:right;
+      margin-top:0;
+    }
+    .review-product-container .rp-header .rp-tags {
+      margin-right:0.4rem;
+    }
+    .review-product-container .rp-header .rp-tags .rp-tag {
+      display:block;
+      font-size:0.6rem;
+      margin:0 0 0.4rem 0;
+      text-align:center;
+    }
+    .review-product-container .rp-product-info {
+      display:block;
+    }
+    .review-product-container .rp-product-info .rp-image,
+    .review-product-container .rp-product-info .rp-description,
+    .review-product-container .rp-product-info .rp-rating {
+      width:100%;
+      margin:2rem 0;
+    }
+    .review-product-container .rp-specs .rp-col {
+      display:block;
+      width:100%;
+      padding-right:0;
+    }
+    .review-product-container .rp-specs .rp-col .rp-spec {
+      width:100%;
+      font-size:0.7rem;
+    }
+    .review-product-container .rp-specs .rp-col .rp-spec .spec-content {
+      text-align:right;
+      float:right;
+    }
+    .review-product-container .rp-specs .rp-col .rp-spec:last-child {
+      margin:1rem 0 0;
+    }
+  }
