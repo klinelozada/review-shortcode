@@ -1,30 +1,7 @@
 <?php
-/**
- * Dame Digital Theme functions and definitions
- *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package Dame Digital
- * @since 1.0.0
- */
-
-/**
- * Define Constants
- */
-define( 'CHILD_THEME_DAME_DIGITAL_VERSION', '1.0.0' );
-
-/**
- * Enqueue styles
- */
-function child_enqueue_styles() {
-
-	wp_enqueue_style( 'dame-digital-theme-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_DAME_DIGITAL_VERSION, 'all' );
-
-}
-
-add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
-
 function enqueue_custom_scripts() {
+	wp_enqueue_style( 'rp-theme-css', get_stylesheet_directory_uri() . '/style.css', array('rp-theme-css'), 'all' );
+
     // Enqueue jQuery from Google CDN
     wp_enqueue_script('rp-jq', 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js', array(), '2.0.0', true);
 
