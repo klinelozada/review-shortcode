@@ -1,15 +1,3 @@
-/**
-Theme Name: Dame Digital
-Author: Dame Digital
-Author URI: https://thedamedigital.com
-Description: Dame Digital is your extended marketing team. We listen to the challenges faced by your business so we can design a cost-effective and long-term strategy.
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: dame-digital
-Template: astra
-*/
-
   .jq-stars{display:inline-block}.jq-rating-label{font-size:22px;display:inline-block;position:relative;vertical-align:top;font-family:helvetica,arial,verdana}.jq-star{width:100px;height:100px;display:inline-block;cursor:pointer}.jq-star-svg{width:100%;height:100%}.jq-star-svg polygon{stroke:#000;stroke-linejoin:round}.jq-shadow{-webkit-filter:drop-shadow( -2px -2px 2px #888 );filter:drop-shadow( -2px -2px 2px #888 )}
 
   body {
