@@ -223,9 +223,15 @@ body {
   padding-right:4rem;
   vertical-align:top;
 }
+.review-product-container .rp-col .rp-spec .spec-name,
+.review-product-container .rp-col .rp-spec .spec-content {
+  width:50%;
+}
 .review-product-container .rp-specs .rp-col .rp-spec {
   font-size:0.9rem;
   margin:1rem 0;
+  display:block;
+  padding:0.6rem 0;
 }
 .review-product-container .rp-specs .rp-col .rp-spec .spec-name,
 .review-product-container .rp-specs .rp-col .rp-spec .spec-content {
