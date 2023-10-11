@@ -9,6 +9,7 @@ To add a simple author and product review made of shortcode
 
 
 <h3>Shortcode Usage: </h3>
+
 ```
 [rp_author_review avatar="https://pillowspecialist.com/img/profile.webp" author="John Krauss" position="Obsessive Tester. Avid Dreamer"]I'm passionate about quality sleep, and I spent months testing pillows. I am reader-supported through purchases on Amazon. I hope my experience helps others.[/rp_author_review]
 
