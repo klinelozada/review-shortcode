@@ -132,6 +132,7 @@ function rp_item_review_sc($atts, $content = null) {
             <div class="rp-image">
                 <img src="' . esc_url($item_image) . '">
                 <a href="' . esc_url($item_image_link[1]) . '" class="rp-image-link">' . esc_html($item_image_link[0]) . '</a>
+                <a href="' . esc_url($item_score_link) . '" class="rp-rating-link mobile-only" style="background:#'.esc_html($item_style_button_color).'">Check Price</a>
             </div>
             
             <div class="rp-description">
