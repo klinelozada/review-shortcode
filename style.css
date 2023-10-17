@@ -199,7 +199,8 @@ body {
   line-height:5rem;
   font-weight:600;
 }
-.review-product-container .rp-product-info .rp-rating a {
+.review-product-container .rp-product-info .rp-rating a,
+.review-product-container .rp-product-info .rp-image a.rp-rating-link.mobile-only {
   background:#EB5020;
   width:100%;
   display:block;
@@ -245,6 +246,9 @@ body {
 .review-product-container .rp-specs .rp-col .rp-spec .spec-content {
   text-align:right;
   float:right;
+}
+.review-product-container .rp-product-info .rp-image a.rp-rating-link.mobile-only {
+  display:none;
 }
 
 /* Responsiveness */
@@ -292,6 +296,13 @@ body {
   .review-product-container .rp-product-info .rp-rating {
     width:100%;
     margin:2rem 0;
+  }
+  .review-product-container .rp-product-info .rp-rating a.rp-rating-link {
+    display:none;
+  }
+  .review-product-container .rp-product-info .rp-image a.rp-rating-link.mobile-only {
+    margin:0.5rem 0 3rem;
+    display:block;
   }
   .review-product-container .rp-specs .rp-col {
     display:block;
