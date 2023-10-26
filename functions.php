@@ -4,11 +4,12 @@
  */
 function child_enqueue_styles() {
 
-	wp_enqueue_style( 'dame-digital-theme-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_DAME_DIGITAL_VERSION, 'all' );
+    wp_enqueue_style('review-shortcode-css', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
 
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+
 // Enqueue Script
 function enqueue_custom_scripts() {
     // Enqueue jQuery from Google CDN
