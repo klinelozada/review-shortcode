@@ -15,7 +15,7 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ### Wirecutter Version
 ![Wirecutter Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-desktop.png)
-![Wirecutter Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-mobile-1.png)
+![Wirecutter Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-mobile.png)
 ![Wirecutter Mobile 2](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-mobile-2.png)
 
 ## Shortcode Usage
