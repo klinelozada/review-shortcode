@@ -288,6 +288,10 @@
     font-size:1rem;
     width: 100%;
 }
+.review-product-container.review-glance .rp-product-info .rp-description ul.rp-cons li,
+.review-product-container.review-glance .rp-product-info .rp-description ul.rp-pros li {
+    font-size:1rem;
+}
 
 /* Responsiveness */
 @media only screen and (min-width: 541px) and (max-width: 768px) {
