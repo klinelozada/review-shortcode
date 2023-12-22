@@ -596,4 +596,20 @@
       display:flex;
       flex-direction: column;
   }
+
+  /*  Review: At a Glance  */
+  .review-product-container.review-glance .rp-product-info .rp-description ul.rp-cons li,
+  .review-product-container.review-glance .rp-product-info .rp-description ul.rp-pros li {
+      font-family: inherit;
+      font-weight:400;
+      line-height:1rem;
+      margin:0;
+  }
+  .review-product-container.review-glance .rp-product-info .rp-description ul.rp-cons,
+  .review-product-container.review-glance .rp-product-info .rp-description ul.rp-pros {
+      margin-bottom:0;
+  }
+  .review-product-container.review-glance .rp-product-info .rp-description{
+      margin: 1rem 0;
+  }
 }
