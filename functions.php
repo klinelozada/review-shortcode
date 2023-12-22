@@ -80,6 +80,10 @@ function rp_cons_shortcode($atts, $content = null) {
 }
 add_shortcode('rp_cons', 'rp_cons_shortcode');
 
+// ========================================================================================================
+// SPECIALIST SHORTCODE
+// ========================================================================================================
+
 function rp_item_review_sc($atts, $content = null) {
     
     $atts = shortcode_atts(
@@ -216,9 +220,59 @@ function rp_item_review_sc($atts, $content = null) {
 
 add_shortcode( 'rp_item_review', 'rp_item_review_sc' );
 
-
+// ========================================================================================================
+// AT A GLANCE SHORTCODE
 // ========================================================================================================
 
+function rp_at_a_glance($atts, $content = null) {
+  
+  $atts = shortcode_atts(
+      array(
+          'item_style_border_color' => 'E6C300',
+          'item_style_button_color' => 'EB5020'
+      ),
+      $atts,
+      'rp_glance'
+  );
+ 
+  $item_style_border_color = $atts['item_style_border_color'];
+  $item_style_button_color = $atts['item_style_button_color'];
+  
+  // Item Review Container
+  $html = '<div class="review-product-container review-glance" style="border:solid 3px #' . esc_html($item_style_border_color) . ';">';
+
+  // Header
+
+  $html .= '<div class="rp-header">
+
+      <div class="rp-winner" style="background">
+          <strong>At a glance:</span>
+      </div>';
+
+  $html .= '</div>';
+
+  // Item Review
+  $html .= '
+      <div class="rp-product-info">
+
+          <div class="rp-description">
+          '.do_shortcode($content).'
+          </div>
+      
+      </div>';
+
+
+  $html .= '</div>';
+
+  return $html;
+  
+}
+
+add_shortcode( 'rp_glance', 'rp_at_a_glance' );
+
+// ========================================================================================================
+// WIRECUTTER SHORTCODE
+// ========================================================================================================
 
 function rp__review_sc($atts, $content = null) {
 
