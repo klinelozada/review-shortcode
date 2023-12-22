@@ -12,6 +12,10 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 ![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-author-bio-desktop.png)
 ![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-author-bio-mobile.png)
 
+### Specialist At A Glance
+![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-glance-desktop.png)
+![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-glance-mobile.png)
+
 ### Specialist Version
 ![Specialist Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-desktop.png)
 ![Specialist Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-mobile.png)
@@ -27,6 +31,14 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 ### [Author Bio] Specialist Version
 ```shortcode
 [rp_author_review avatar="https://pillowspecialist.com/img/profile.webp" author="John Krauss" position="Obsessive Tester. Avid Dreamer"]I'm passionate about quality sleep, and I spent months testing pillows. I am reader-supported through purchases on Amazon. I hope my experience helps others.[/rp_author_review]
+```
+
+### [At A Glance] Specialist Version
+```shortcode
+[rp_glance item_style_border_color="000000" item_style_button_color="000000"]
+[rp_pros]Can reduce neck pain, Relatively lower <a href="#">cost</a>[/rp_pros]
+[rp_cons]Foam was a bit too soft / low for me and I couldn't exchange it for a firmer or taller version, the cover sleeps pretty hot[/rp_cons]
+[/rp_glance]
 ```
 
 ### [Product Review] Specialist Version
