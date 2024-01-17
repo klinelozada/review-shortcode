@@ -292,6 +292,18 @@
 .review-product-container.review-glance .rp-product-info .rp-description ul.rp-pros li {
     font-size:1rem;
 }
+.review-card-container .review-info .review-col {
+    margin: 1rem;
+}
+.review-card-container {
+    border:6px solid #1b4abe;
+}
+.review-card-container::after {
+    border-right:20px solid #1b4abe;
+}
+.review-card-container .review-info .review-col img {
+    border-radius:0.4rem;
+}
 
 /* Responsiveness */
 @media only screen and (min-width: 541px) and (max-width: 768px) {
@@ -374,15 +386,15 @@
   padding: 0 1rem 1rem;
   margin-top:2rem;
   background:#fff;
-  box-shadow:0 0 5px 0 hsla(0,0%,55.7%,.5);
+  box-shadow:0 0 5px 0 rgba(142, 142, 142, 0.5);
 }
 .review-card-container:after {
   content: "";
   display:inline-block;
   position: absolute;
-  border-top:20px rgb(0 0 0 / 0%) solid;
-  border-bottom:20px rgb(0 0 0 / 0%) solid;
-  border-right:20px hsla(0,0%,55.7%,.1) solid;
+  border-top:20px rgba(0, 0, 0, 0) solid;
+  border-bottom:20px rgba(0, 0, 0, 0) solid;
+  border-right:20px rgba(142, 142, 142, 0.1) solid;
   width: 20px;
   height: 20px;
   -webkit-transform: rotate(270deg);
@@ -471,9 +483,9 @@
   content: "";
   display:inline-block;
   position: absolute;
-  border-top:20px rgb(0 0 0 / 0%) solid;
-  border-bottom:20px rgb(0 0 0 / 0%) solid;
-  border-right:20px rgb(27 74 190) solid;
+  border-top:20px rgba(0,0,0,0) solid;
+  border-bottom:20px rgba(0,0,0,0) solid;
+  border-right:20px rgba(27,74,190) solid;
   width: 20px;
   height: 20px;
   -webkit-transform: rotate(270deg);
@@ -557,7 +569,7 @@
   }
   .review-product-container .rp-header .rp-tags .rp-tag {
       border:0;
-      box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 8%);
+      box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.08);
       border-radius:0.2rem;
   }
   .review-product-container .rp-product-info .rp-rating .rp-score {
