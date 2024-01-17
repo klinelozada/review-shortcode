@@ -8,32 +8,22 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 
 ## Visuals
 
-### Specialist Author Bio Version
+### [Author Bio] Specialist Version
+#### Screenshots
 ![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-author-bio-desktop.png)
 ![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-author-bio-mobile.png)
 
-### Specialist At A Glance
-![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-glance-desktop.png)
-![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-glance-mobile.png)
-
-### Specialist Version
-![Specialist Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-desktop.png)
-![Specialist Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-mobile.png)
-![Specialist Mobile 2](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-mobile-2.png)
-
-### Wirecutter Version
-![Wirecutter Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-desktop.png)
-![Wirecutter Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-mobile.png)
-![Wirecutter Mobile 2](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-mobile-2.png)
-
-## Shortcode Usage
-
-### [Author Bio] Specialist Version
+#### Shortcode Usage
 ```shortcode
 [rp_author_review avatar="https://pillowspecialist.com/img/profile.webp" author="John Krauss" position="Obsessive Tester. Avid Dreamer"]I'm passionate about quality sleep, and I spent months testing pillows. I am reader-supported through purchases on Amazon. I hope my experience helps others.[/rp_author_review]
 ```
 
-### [At A Glance] Specialist Version
+### Specialist At A Glance
+#### Screenshots
+![Specialist Author Bio Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-glance-desktop.png)
+![Specialist Author Bio Mobile](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-glance-mobile.png)
+
+#### Shortcode Usage
 ```shortcode
 [rp_glance item_style_border_color="000000" item_style_button_color="000000"]
 [rp_pros]Can reduce neck pain, Relatively lower <a href="#">cost</a>[/rp_pros]
@@ -42,6 +32,12 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 ```
 
 ### [Product Review] Specialist Version
+#### Screenshots
+![Specialist Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-desktop.png)
+![Specialist Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-mobile.png)
+![Specialist Mobile 2](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/specialist-mobile-2.png)
+
+#### Shortcode Usage
 ```shortcode
 [rp_item_review item_win_tag="Contoured Pillow Alternative" item_image="https://cdn.homehacks.co/wp-content/uploads/2022/01/31115654/epbao-1.jpeg" item_image_link="EPABO, https://www.amazon.com/gp/product/B07BKVG42X/ref=as_li_tl?ie=UTF8&tag=pillow_reviews-20" item_score="6.0" item_score_link="https://www.amazon.com/gp/product/B07BKVG42X/ref=as_li_tl?ie=UTF8&tag=pillow_reviews-20" item_specs_firmness="Soft" item_specs_loft="Low" item_specs_positions="Back" item_specs_body_type="Petite, Average" item_specs_filling_score="3" item_specs_quality_score="4" item_style_border_color="000000" item_style_button_color="000000"]
 [rp_excerpt]A decent pillow - however, the issue is that if their one size & firmness level doesn't work for you, you're kind of stuck. The Dosaze Pillow offers free exchanges to different sizes and firmness levels so you can find the best fit for you, so I would test that one instead.[/rp_excerpt]
@@ -51,6 +47,12 @@ Review Shortcode is a versatile tool that allows you to effortlessly integrate a
 ```
 
 ### Wirecutter Version
+#### Screenshots
+![Wirecutter Desktop](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-desktop.png)
+![Wirecutter Mobile 1](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-mobile.png)
+![Wirecutter Mobile 2](https://raw.githubusercontent.com/klinelozada/review-shortcode/main/screenshots/wirecutter-mobile-2.png)
+
+#### Shortcode Usage
 ```
 [rp__review item_label="Our Pick" item_title="Nest Bedding Easy Breather Pillow" item_image="https://d1b5h9psu9yexj.cloudfront.net/20568/The-Easy-Breather-Pillow_20180416-200643_full.jpg" item_button_1="$179 from Tempur-Pedic, queen size, https://www.nytimes.com/wirecutter/out/link/20568/109771/4/109232?merchant=Nest%20Bedding" item_tags="Best memory-foam pillow"]
 [rp_excerpt]Our testers love shredded foam more than any other type, and this pillow is a longtime favorite. It has moldable, customizable filling that gives back- and side-sleepers firm support.[/rp_excerpt]
